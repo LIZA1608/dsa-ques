@@ -4,6 +4,7 @@ void solve(vector<vector<int>>&ans,vector<int>vec,int freq[],vector<int>temp){
         ans.push_back(temp);
         return;
     }
+    int n=vec.size();
     for(int i=0;i<n;i++){
         if(!freq[i]){
             temp.push_back(vec[i]);
